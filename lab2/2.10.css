@@ -1,0 +1,11 @@
+﻿* {
+    margin: 5px;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+.box {
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}

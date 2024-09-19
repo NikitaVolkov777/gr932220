@@ -1,0 +1,16 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+.square {
+    text-align: left;
+    font-size: 12px;
+    padding: 0;
+    flex-direction: column;
+    position: static;
+    margin-left: 5px;
+    color: white;
+    height: 100px;
+    width: 200px;
+}

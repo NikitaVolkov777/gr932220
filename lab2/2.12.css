@@ -1,0 +1,62 @@
+﻿* {
+    font-family: 'Times New Roman';
+}
+
+body {
+    margin: 5px;
+}
+@media screen and (min-width: 501px) {
+    .left-column {
+        display: flex;
+        margin-right: 5px;
+    }
+    .container {
+        display: flex;
+        text-align: left;
+        font-size: 12px;
+        color: black;
+        background-color: aqua;
+        margin: auto;
+        border: 2px solid green;
+    }
+    .box {
+
+        background-color: bisque;
+        text-align: left;
+        font-size: 12px;
+        color: black;
+        max-height: 80px;
+        width: 300px;
+    }
+
+    .gray-area {
+        margin-right: 5px;
+        background-color: darkgray;
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 500px){
+    .container {
+        text-align: left;
+        font-size: 12px;
+        color: black;
+        background-color: aqua;
+        margin: auto;
+        border: 2px solid green;
+    }
+
+    .box {
+        padding: 10px;
+        background-color: bisque;
+        text-align: left;
+        font-size: 12px;
+        color: black;
+        max-height: 80px;
+        max-width:150px;
+    }
+
+    .gray-area {
+        background-color: darkgray;
+        max-width: 250px;
+    }
+}
