@@ -42,13 +42,14 @@ function appendOperator(op) {
     else
     {
         /* */
-        let expression = oldPart.textContent + ' ' + newPart.textContent;
-        let result = eval(expression);
-        oldPart.textContent = result;
+        //let expression = oldPart.textContent + ' ' + newPart.textContent;
+        //let result = eval(expression);
+        //oldPart.textContent = result;
+        oldPart.textContent = oldPart.textContent.slice(0, -1);
         oldPart.textContent += op;
         /* */
+        /*newPart.textContent = '0';*/
 
-        newPart.textContent = '0';
     }
 }
 
