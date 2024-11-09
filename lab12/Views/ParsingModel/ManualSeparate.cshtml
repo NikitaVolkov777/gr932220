@@ -1,0 +1,30 @@
+﻿@model Parsing.Models.ParsingModel
+
+@{
+    ViewData["Title"] = "ManualWithSeparateHandlers";
+}
+
+@* <h2>ManualWithSeparateHandlers</h2>
+<form id="calcForm" method="post" action="@Url.Action("ModelBinding", "ParsingModel")">
+    <input type="number" id="operand1" name="operand1" required />
+    <select id="operator" name="Operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="operand2" name="operand2" required />
+    <button type="submit">Submit</button>
+</form> *@
+<h2>ManualWithSeparateHandlers</h2>
+<form id="calcForm" method="post" action="@Url.Action("ManualSeparate", "ParsingModel")">
+    <input type="number" id="operand1" name="operand1" required value="@Model.Operand1" />
+    <select id="operator" name="Operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="operand2" name="operand2" required value="@Model.Operand2" />
+    <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,18 @@
+﻿@model Parsing.Models.ParsingModel
+
+@{
+    ViewData["Title"] = "Manual";
+}
+
+<h2>Manual</h2>
+<form id="calcForm" method="post" action="@Url.Action("Manual", "ParsingModel")">
+    <input type="number" id="operand1" name="operand1" required />
+    <select id="operator" name="Operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="operand2" name="operand2" required />
+    <button type="submit">Submit</button>
+</form>

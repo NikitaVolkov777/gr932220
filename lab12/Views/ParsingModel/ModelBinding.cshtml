@@ -1,0 +1,19 @@
+﻿@model Parsing.Models.ParsingModel
+
+@{
+    ViewData["Title"] = "ModelBindingInParameters";
+}
+
+<h2>ModelBindingInParameters</h2>
+
+<form method="post" action="@Url.Action("ModelBinding", "ParsingModel")">
+    <input type="number" asp-for="Operand1" />
+    <select asp-for="Operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" asp-for="Operand2" />
+    <button type="submit">Submit</button>
+</form>
