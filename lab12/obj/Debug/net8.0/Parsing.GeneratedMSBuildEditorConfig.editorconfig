@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Parsing
+build_property.RootNamespace = Parsing
+build_property.ProjectDir = C:\Users\Енот\Desktop\ㅤㅤ\Учеба\ВЕБ\lab12\Parsing\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Енот\Desktop\ㅤㅤ\Учеба\ВЕБ\lab12\Parsing
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/ParsingModel/Manual.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyc2luZ01vZGVsXE1hbnVhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/ParsingModel/ManualSeparate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyc2luZ01vZGVsXE1hbnVhbFNlcGFyYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/ParsingModel/ModelBinding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyc2luZ01vZGVsXE1vZGVsQmluZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/ParsingModel/ModelBindingSeparate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyc2luZ01vZGVsXE1vZGVsQmluZGluZ1NlcGFyYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/ParsingModel/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyc2luZ01vZGVsXFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Енот/Desktop/ㅤㅤ/Учеба/ВЕБ/lab12/Parsing/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-84dv67ralm
