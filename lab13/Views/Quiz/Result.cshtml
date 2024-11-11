@@ -1,0 +1,16 @@
+﻿@if (ViewBag.Message != null)
+{
+    <h2>Результаты</h2>
+    <p>@ViewBag.Message</p>
+}
+else
+{
+    <h2>Quiz Result</h2>
+    <p style="font-size:25px">Правильных ответов @ViewBag.CorrectCount из возможных @ViewBag.CountQuestions </p>
+    <ol>
+    @foreach(var item in Model)
+    {
+            <li> @item.QuestionText @item.UserAnswer </li>
+    }
+    </ol>
+}

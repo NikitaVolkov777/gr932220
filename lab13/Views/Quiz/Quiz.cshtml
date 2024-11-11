@@ -1,0 +1,22 @@
+﻿@model Quiz.Models.QuizModel
+
+@{
+    ViewData["Title"] = "Quiz";
+}
+
+<h2>Quiz</h2>
+
+<form asp-action="Next" method="post" id="quizForm">
+    <div>
+        <p>@Model.QuestionText</p>
+        <input asp-for="UserAnswer" id="userAnswer" /> <!-- Поле ввода -->
+        <span asp-validation-for="UserAnswer" class="text-danger"></span>
+    </div>
+
+    <!-- Скрытые поля для передачи данных -->
+    <input type="hidden" asp-for="QuestionNumber" />
+    <input type="hidden" asp-for="QuestionText" />
+
+    <button class="Next" type="submit">Next</button>
+    <button class="Res" type="button" onclick="location.href='@Url.Action("Result")' ">Finish</button>
+</form>
