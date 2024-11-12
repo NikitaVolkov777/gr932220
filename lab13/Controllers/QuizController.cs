@@ -27,55 +27,6 @@ namespace Quiz.Controllers
             return View(currentQuestion);
         }
 
-        // Метод для обработки ответа и перехода к следующему вопросу
-        //[HttpPost]
-        //public IActionResult Next(QuizModel model)
-        //{
-        //    // Если ответ пустой, мы явно присваиваем null
-        //    if (string.IsNullOrEmpty(model.UserAnswer?.ToString()))
-        //    {
-        //        model.UserAnswer = null;
-        //    }
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        // Сохраняем ответ пользователя для предыдущего вопроса
-        //        quizHistory.Last().UserAnswer = model.UserAnswer;
-
-        //        // Проверка правильности ответа
-        //        if (quizHistory.Last().CorrectAnswer != model.UserAnswer)
-        //        {
-        //            quizHistory.Last().IsCorrect = false;
-        //        }
-        //        else
-        //        {
-        //            quizHistory.Last().IsCorrect = true;
-        //        }
-
-        //        // Генерация следующего вопроса
-        //        var nextQuestion = GenerateQuestion(quizHistory.Count + 1);
-
-        //        // Добавляем новый вопрос в историю
-        //        quizHistory.Add(nextQuestion);
-
-        //        // Очищаем поле для ответа
-        //        nextQuestion.UserAnswer = null; // Очистка ответа
-
-        //        return View("Quiz", nextQuestion);
-        //    }
-
-        //    // Если модель не прошла валидацию, возвращаем тот же вопрос
-        //    return View("Quiz", model);
-        //}
-
-        //// Метод для вывода результатов
-        //public IActionResult Result(QuizModel model)
-        //{
-        //    // Подсчёт правильных ответов
-        //    int correctCount = quizHistory.Count(q => q.IsCorrect);
-        //    ViewBag.CorrectCount = correctCount;
-        //    return View(quizHistory);
-        //}
         [HttpPost]
         public IActionResult Next(QuizModel model)
         {
